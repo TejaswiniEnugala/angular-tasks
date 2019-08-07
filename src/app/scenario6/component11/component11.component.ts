@@ -16,5 +16,8 @@ myfunction()
 
   ngOnInit() {
   }
-
+fireEvent()
+{
+  this.childEvent.emit(this.name);
+}
 }
